@@ -1,0 +1,168 @@
+{
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.db": "default"
+  },
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      // this is for save the file
+      "before": ["<leader>", "f"],
+      "commands": [":w!"]
+    },
+    {
+      "before": ["t", "t"],
+      "commands": [":tabnew"]
+    },
+    {
+      "before": ["t", "n"],
+      "commands": [":tabn"]
+    },
+    {
+      "before": ["t", "p"],
+      "commands": [":tabp"]
+    },
+    {
+      "before": ["<leader>", "q"],
+      "commands": [":q"]
+    }
+  ],
+  "vim.leader": ",",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "editor.tabSize": 2,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.env.windows": {},
+  "editor.linkedEditing": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vscodeGoogleTranslate.preferredLanguage": "English",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "console-ninja.featureSet": "Community",
+  "workbench.sideBar.location": "right",
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.editorTheme": "One Dark Pro Darker",
+  "editor.fontFamily": "'Cascadia Code PL', 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "emojisense.languages": {
+    "markdown": true,
+    "plaintext": {
+      "markupCompletionsEnabled": false,
+      "emojiDecoratorsEnabled": false
+    },
+    "scminput": true,
+    "git-commit": true,
+    "abap": true,
+    "bat": true,
+    "bibtex": true,
+    "clojure ": true,
+    "coffee script": true,
+    "c": true,
+    "cpp": true,
+    "csharp": true,
+    "css": true,
+    "difference": true,
+    "dockerfile": true,
+    "fsharp ": true,
+    "git-rebase": true,
+    "go": true,
+    "groovy": true,
+    "handlebar": true,
+    "html": true,
+    "ini": true,
+    "java": true,
+    "javascript": true,
+    "javascriptreact": true,
+    "json": true,
+    "jsonc": true,
+    "latex": true,
+    "less": true,
+    "lua": true,
+    "file MAKE": true,
+    "rebate": true,
+    "target-c": true,
+    "target-cpp": true,
+    "perl6": true,
+    "php": true,
+    "powershell": true,
+    "jade": true,
+    "python": true,
+    "r": true,
+    "razor": true,
+    "ruby": true,
+    "rust": true,
+    "scss": true,
+    "sass": true,
+    "shaderlab": true,
+    "shellscript": true,
+    "sql": true,
+    "fast": true,
+    "typescript": true,
+    "typescriptreact": true,
+    "tex": true,
+    "vb": true,
+    "xml": true,
+    " xsl": true,
+    "yaml": true
+  },
+  "editor.stickyScroll.enabled": true,
+  "cSpell.language": "en,es",
+  "cSpell.userWords": [
+    "Eduard",
+    "Midudev"
+  ],
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1
+}
